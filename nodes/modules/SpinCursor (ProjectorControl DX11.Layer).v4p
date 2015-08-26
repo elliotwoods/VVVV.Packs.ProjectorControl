@@ -1,5 +1,5 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45alpha31.1.dtd" >
-   <PATCH nodename="C:\vvvv-sdk\vvvv45\packs\VVVV.Nodes.ProjectorControl\nodes\modules\SpinCursor (ProjectorControl DX11.Layer).v4p" systemname="SpinCursor (DX11.Layer)" filename="C:\vvvv-sdk\vvvv45\packs\VVVV.Nodes.ProjectorControl\nodes\modules\SpinCursor (DX11.Layer).v4p">
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta33.7.dtd" >
+   <PATCH nodename="C:\vvvv\vvvv_45beta33.7_x64\packs\VVVV.Packs.ProjectorControl\nodes\modules\SpinCursor (ProjectorControl DX11.Layer).v4p" systemname="SpinCursor (DX11.Layer)" filename="C:\vvvv-sdk\vvvv45\packs\VVVV.Nodes.ProjectorControl\nodes\modules\SpinCursor (DX11.Layer).v4p">
    <BOUNDS type="Window" left="7905" top="2355" width="14640" height="12990">
    </BOUNDS>
    <NODE systemname="Vector (3d Join)" nodename="Vector (3d Join)" componentmode="Hidden" id="6">
@@ -435,7 +435,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="7860" top="9450" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Input Enum" slicecount="1" values="ConstantWithinViewport">
+   <PIN pinname="Input Enum" slicecount="1" values="Constant">
    </PIN>
    </NODE>
    <LINK srcnodeid="76" srcpinname="Output Enum" dstnodeid="65" dstpinname="Technique">
@@ -445,7 +445,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="5100" top="9555" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Input Enum" slicecount="1" values="ConstantWithinViewport">
+   <PIN pinname="Input Enum" slicecount="1" values="Constant">
    </PIN>
    </NODE>
    <LINK srcnodeid="77" srcpinname="Output Enum" dstnodeid="73" dstpinname="Technique">
@@ -470,4 +470,6 @@
    </LINK>
    <LINK srcnodeid="57" srcpinname="Transform Out" dstnodeid="73" dstpinname="Transform In">
    </LINK>
+   <PACK Name="addonpack" Version="33.7.0">
+   </PACK>
    </PATCH>
